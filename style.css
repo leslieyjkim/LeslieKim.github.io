@@ -1,0 +1,109 @@
+body {
+    background-color: #FEFCF3;
+}
+
+.top-container {
+    background-color:#199fa8 ;
+    position: relative;
+}
+
+.link-body-emphasis .fs-4 {
+    color:#FEFCF3;
+}
+
+.nav-links .nav-link {
+    color: #fad1af;
+  }
+
+.profile {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: scale-do;
+}
+
+.icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+#Contact {
+    background-color: #FEFCF3; /* Light gray background */
+    padding: 2rem; /* Padding around the section */
+    text-align: center; /* Center the text */
+  }
+  
+  .contact-container {
+    max-width: 600px; /* Limit the width */
+    margin: 0 auto; /* Center the container */
+    padding: 1rem; /* Padding inside the container */
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .contact-container h2 {
+    margin-bottom: 1rem; /* Space below the heading */
+    color: #333333; /* Dark text color */
+  }
+  
+  .contact-container p {
+    margin: 0.5rem 0; /* Space above and below paragraphs */
+    color: #555555; /* Medium dark text color */
+  }
+  
+  .contact-container a {
+    color: #199fa8; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .contact-container a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .contact-container .btn {
+    display: inline-block; /* Make it behave like a button */
+    margin-top: 1rem; /* Space above the button */
+    padding: 0.5rem 1rem; /* Padding inside the button */
+    background-color: #199fa8; /* Button background color */
+    color: #ffffff; /* Button text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+
+.footer {
+    background-color: #199fa8; /* Light gray background */
+    padding: 1rem; /* Some padding */
+    text-align: center; /* Center the text */
+    width: 100%; /* Full width */
+    position: relative; /* Ensures it is positioned correctly */
+    bottom: 0;
+  }
+  
+  .footer .bottom-container {
+    max-width: 960px; /* Optional: match your site's container width */
+    margin: 0 auto; /* Center the container */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row;
+    align-items: center; /* Center items vertically */
+    justify-content: center;/* Center items horizontally */
+    flex-wrap: wrap;/* Allow wrapping to ensure the copyright is below the links */
+  }
+  
+  .footer-link {
+    margin: 0 1rem; /* Add horizontal margin between links */
+    color: #fad1af; /* Link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .copyright {
+    width: 100%;/* Take full width to ensure it starts on a new line */
+    margin-top: 1rem; /* Add margin above the copyright text */
+    color: #FEFCF3; /* Subtle text color */
+  }
