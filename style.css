@@ -9,9 +9,10 @@ body {
   z-index: 1030; /* Ensure it's above other content */
   background-color: #199fa8; /* Set the background color to prevent transparency */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  padding: 0 20px;
 }
 .top-container {
-    background-color:#199fa8 ;
+    /* background-color:#199fa8 ; */
     position: relative;
     padding-top: 70px;/* Adjust padding to account for the fixed header height */
 }
