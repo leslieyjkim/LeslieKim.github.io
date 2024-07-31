@@ -39,6 +39,13 @@ body {
     text-align: center; /* Center the text */
   }
   
+  .custom-btn {
+    background-color: #199fa8; /* Button background color */
+    border-color: none; /* Button border color */
+    color: #FEFCF3; /* Button text color */
+}
+
+
   .contact-container {
     max-width: 600px; /* Limit the width */
     margin: 0 auto; /* Center the container */
