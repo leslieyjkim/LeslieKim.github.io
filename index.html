@@ -25,8 +25,8 @@
         
               <ul class="nav nav-links">
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a id="navAboutmeLink"href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a id="navProjectLink" href="#" class="nav-link">Projects</a></li>
                 <li class="nav-item"><a id="navContactLink" href="#" class="nav-link">Contact</a></li>
               </ul>
             </header>
@@ -100,10 +100,15 @@
           document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });
       };
 
+      document.getElementById('navAboutmeLink').onclick = function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        document.getElementById('About').scrollIntoView({ behavior: 'smooth' });
+      };
+
       document.getElementById('navContactLink').onclick = function(event) {
         event.preventDefault(); // Prevent default anchor behavior
         document.getElementById('Contact').scrollIntoView({ behavior: 'smooth' });
-    };
+      };
     </script>
 
     <footer class="footer">    
