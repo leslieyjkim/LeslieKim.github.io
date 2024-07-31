@@ -8,7 +8,7 @@ body {
 }
 
 .link-body-emphasis .fs-4 {
-    color:#FEFCF3;
+    color:#f1ece8;
 }
 
 .nav-links .nav-link {
@@ -31,6 +31,7 @@ body {
     width: 3rem;
     height: 3rem;
     border-radius: 0.75rem;
+    margin-right: 10px;
 }
 #Contact {
     background-color: #FEFCF3; /* Light gray background */
