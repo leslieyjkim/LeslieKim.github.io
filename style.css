@@ -51,7 +51,11 @@ body {
     margin: 0.5rem 0; /* Space above and below paragraphs */
     color: #555555; /* Medium dark text color */
   }
-  
+  .contact-massage {
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+  }
   .contact-container a {
     color: #199fa8; /* Link color */
     text-decoration: none; /* Remove underline */
