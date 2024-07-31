@@ -1,10 +1,19 @@
 body {
     background-color: #FEFCF3;
 }
-
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1030; /* Ensure it's above other content */
+  background-color: #199fa8; /* Set the background color to prevent transparency */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
 .top-container {
     background-color:#199fa8 ;
     position: relative;
+    padding-top: 70px;/* Adjust padding to account for the fixed header height */
 }
 
 .link-body-emphasis .fs-4 {
@@ -32,6 +41,10 @@ body {
     height: 3rem;
     border-radius: 0.75rem;
     margin-right: 10px;
+}
+
+#About {
+  padding-top: 70px;
 }
 #Contact {
     background-color: #FEFCF3; /* Light gray background */
