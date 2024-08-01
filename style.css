@@ -47,8 +47,14 @@ body {
 #About {
   padding-top: 70px;
 }
+
+#Project {
+  padding-top: 70px;
+}
+
 #Contact {
     background-color: #FEFCF3; /* Light gray background */
+    padding-top: 70px;
     padding: 2rem; /* Padding around the section */
     text-align: center; /* Center the text */
   }
