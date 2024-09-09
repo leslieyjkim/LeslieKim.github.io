@@ -144,3 +144,7 @@ body {
     margin-top: 1rem; /* Add margin above the copyright text */
     color: #FEFCF3; /* Subtle text color */
   }
+
+  .text-justify {
+    text-align: justify;
+  }
